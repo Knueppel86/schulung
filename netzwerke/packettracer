@@ -1,2 +1,28 @@
 info packettracer
 
+show vlan brief - vlans anzeigen
+
+copy running config - anzugebene config kopieren
+
+show running config - anzeigen der config
+
+
+
+Router Settings - trunk subinterfaces
+
+Befehl - Kommentare
+
+
+en - anschalten
+
+conf t - config anschalten für terminal
+
+interface GigabitEthernet0/0/0.10 - auswählen des Interfaces
+
+description VLAN10 - beschreibund des Interfaces
+
+encapsulation dot1Q 10 - IEEE 802.1Q muss angeschalten sein ? 
+
+ip address 192.168.10.1 255.255.255.0 - Angeben des Gateways
+
+no shutdown - anschalten des ports
