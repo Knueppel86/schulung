@@ -1,5 +1,9 @@
 info packettracer
 
+
+
+
+
 switch vlan database erstellung
 
 en
@@ -7,11 +11,18 @@ conf t
 vlan (nr)
 name (name)
 
+interface Gigabitbla 
+switchport mode access/trunk
+
+switchport access vlan (nr)
+
 switch settings speichern
 
 write memory - zum settings speichern
 
 startup config - zum settings speichern
+
+
 
 
 
