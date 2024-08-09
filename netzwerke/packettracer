@@ -1,5 +1,16 @@
 info packettracer
 
+switch vlan database erstellung
+
+en
+conf t
+vlan (nr)
+name (name)
+
+
+
+
+
 show vlan brief - vlans anzeigen
 
 copy running config - anzugebene config kopieren
@@ -8,10 +19,20 @@ show running config - anzeigen der config
 
 
 
-Router Settings - trunk subinterfaces
+Router Settings - Allgemeine Infos
 
 Befehl - Kommentare
 
+show vlan brief - vlans anzeigen
+
+copy running config - anzugebene config kopieren
+
+show running config - anzeigen der config
+
+
+Router Settings - trunking subinterfaces
+
+CLI 
 
 en - anschalten
 
