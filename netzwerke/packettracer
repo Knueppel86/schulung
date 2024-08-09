@@ -7,15 +7,11 @@ conf t
 vlan (nr)
 name (name)
 
+switch settings speichern
 
+write memory - zum settings speichern
 
-
-
-show vlan brief - vlans anzeigen
-
-copy running config - anzugebene config kopieren
-
-show running config - anzeigen der config
+startup config - zum settings speichern
 
 
 
@@ -28,6 +24,7 @@ show vlan brief - vlans anzeigen
 copy running config - anzugebene config kopieren
 
 show running config - anzeigen der config
+
 
 
 Router Settings - trunking subinterfaces
