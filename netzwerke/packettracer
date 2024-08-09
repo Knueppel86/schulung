@@ -18,6 +18,8 @@ switchport access vlan (nr)
 
 switch settings speichern
 
+copy running-config startup-config
+
 write memory - zum settings speichern
 
 startup config - zum settings speichern
