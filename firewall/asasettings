@@ -1,0 +1,23 @@
+
+
+## verbindung zwischen inside_outside erstellen
+
+object network LAN
+subnet 10.0.0.0 255.0.0.0
+nat (inside,outside) dynamic interface
+
+
+## access-list erstellen für ping
+
+
+access-list outside_acl extended permit icmp any any
+
+access-group outside_acl in interface outside
+
+
+
+show access-list
+
+## access-list erstellen/bearbeiten für dns
+
+access-list outside_acl extended permit udp any eq 53 any
